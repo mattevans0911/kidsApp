@@ -1,0 +1,33 @@
+/* src/Gamepad.css */
+.gamepad {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: start;
+}
+
+.gamepad-middle {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.gamepad-button {
+  width: 60px;
+  height: 60px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.gamepad-button.up {
+  margin-bottom: 5px;
+}
+
+.gamepad-button.down {
+  margin-top: 5px;
+}

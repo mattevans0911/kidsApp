@@ -3,7 +3,6 @@ import { Card, Typography } from "@mui/material";
 import { FaBookOpen, FaPencilAlt, FaPaintBrush } from "react-icons/fa";
 import GamepadIcon from "@mui/icons-material/Gamepad";
 import { Link } from "react-router-dom";
-import Story from "./Story";
 
 function Homepage() {
   return (
@@ -30,7 +29,6 @@ function Homepage() {
         <Typography style={{ fontSize: "2em", color: "white" }}>
           Select a card below to start exploring!
         </Typography>
-        <Story />
       </div>
       <div
         style={{
